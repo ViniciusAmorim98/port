@@ -1,0 +1,43 @@
+@media (max-width: 576px) {
+    .flex-header {
+        flex-direction: column-reverse;
+        /* border: solid red 1px; */
+        padding-top: 40px;
+    }
+
+    .header-txt {
+        width: 100%;
+    }
+
+    .header-txt h1,
+    .header-txt p {
+        text-align: center;
+    }
+
+    .caixa-header {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .caixa {
+        gap: 5px;
+    }
+
+    .caixa i {
+        font-size: 10px;
+    }
+
+    .caixa-header-txt {
+        font-size: 10px;
+    }
+
+    .header-img {
+        width: 100%;
+    }
+
+    .button-flex {
+        display: flex;
+        justify-content: center;
+    }
+}
